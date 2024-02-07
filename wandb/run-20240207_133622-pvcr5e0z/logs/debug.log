@@ -1,0 +1,28 @@
+2024-02-07 13:36:22,425 INFO    MainThread:2644 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-02-07 13:36:22,425 INFO    MainThread:2644 [wandb_setup.py:_flush():76] Configure stats pid to 2644
+2024-02-07 13:36:22,425 INFO    MainThread:2644 [wandb_setup.py:_flush():76] Loading settings from C:\Users\barke\.config\wandb\settings
+2024-02-07 13:36:22,425 INFO    MainThread:2644 [wandb_setup.py:_flush():76] Loading settings from C:\Users\barke\Desktop\test\ML_testing\wandb\settings
+2024-02-07 13:36:22,425 INFO    MainThread:2644 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-02-07 13:36:22,425 INFO    MainThread:2644 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-02-07 13:36:22,425 INFO    MainThread:2644 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'test.py', 'program_abspath': 'C:\\Users\\barke\\Desktop\\test\\ML_testing\\test.py', 'program': 'C:\\Users\\barke\\Desktop\\test\\ML_testing\\test.py'}
+2024-02-07 13:36:22,425 INFO    MainThread:2644 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2024-02-07 13:36:22,425 INFO    MainThread:2644 [wandb_init.py:_log_setup():526] Logging user logs to C:\Users\barke\Desktop\test\ML_testing\wandb\run-20240207_133622-pvcr5e0z\logs\debug.log
+2024-02-07 13:36:22,425 INFO    MainThread:2644 [wandb_init.py:_log_setup():527] Logging internal logs to C:\Users\barke\Desktop\test\ML_testing\wandb\run-20240207_133622-pvcr5e0z\logs\debug-internal.log
+2024-02-07 13:36:22,425 INFO    MainThread:2644 [wandb_init.py:init():566] calling init triggers
+2024-02-07 13:36:22,425 INFO    MainThread:2644 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {}
+2024-02-07 13:36:22,425 INFO    MainThread:2644 [wandb_init.py:init():616] starting backend
+2024-02-07 13:36:22,425 INFO    MainThread:2644 [wandb_init.py:init():620] setting up manager
+2024-02-07 13:36:22,456 INFO    MainThread:2644 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-02-07 13:36:22,472 INFO    MainThread:2644 [wandb_init.py:init():628] backend started and connected
+2024-02-07 13:36:22,518 INFO    MainThread:2644 [wandb_init.py:init():720] updated telemetry
+2024-02-07 13:36:22,777 INFO    MainThread:2644 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-02-07 13:36:24,267 ERROR   MainThread:2644 [wandb_init.py:init():779] encountered error: It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)
+2024-02-07 13:36:25,587 ERROR   MainThread:2644 [wandb_init.py:init():1194] It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)
+Traceback (most recent call last):
+  File "D:\Programs\Anaconda\envs\test\lib\site-packages\wandb\sdk\wandb_init.py", line 1176, in init
+    run = wi.init()
+  File "D:\Programs\Anaconda\envs\test\lib\site-packages\wandb\sdk\wandb_init.py", line 785, in init
+    raise error
+wandb.errors.CommError: It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)
+2024-02-07 13:36:27,382 WARNING MsgRouterThr:2644 [router.py:message_loop():77] message_loop has been closed

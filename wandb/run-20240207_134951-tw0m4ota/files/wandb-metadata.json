@@ -1,0 +1,45 @@
+{
+    "os": "Windows-10-10.0.19042-SP0",
+    "python": "3.10.13",
+    "heartbeatAt": "2024-02-07T13:49:55.068062",
+    "startedAt": "2024-02-07T13:49:51.763347",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:\\Users\\barke\\Desktop\\test\\ML_testing\\test.py",
+    "codePathLocal": "test.py",
+    "codePath": "test.py",
+    "git": {
+        "remote": "git@github.com:barkern0123/ML_testing.git",
+        "commit": "fa086666de593aa698c7606a7049e86cc843859c"
+    },
+    "email": "noahbarker23@gmail.com",
+    "root": "C:/Users/barke/Desktop/test/ML_testing",
+    "host": "LAPTOP-LIJ6UUDK",
+    "username": "barke",
+    "executable": "D:\\Programs\\Anaconda\\envs\\test\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2100.0,
+        "min": 0.0,
+        "max": 2100.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 2100.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 135.42675399780273,
+            "used": 93.02715682983398
+        }
+    },
+    "memory": {
+        "total": 6.937145233154297
+    }
+}
